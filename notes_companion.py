@@ -13,6 +13,7 @@ notes_11 = []  # "subject""unit" For notes
 
 def choose_notes_from_11():
     print(list(notes_11))
+# Will be copied for other cases
     
 
 # There functions is only used for accessing program without GUI
@@ -34,6 +35,7 @@ def choose_unit_from_1():
         choose_notes_from_14()
     elif unit == 5:
         choose_notes_from_15()
+# Will be copied for other cases
 
 
 def choose_subject():
