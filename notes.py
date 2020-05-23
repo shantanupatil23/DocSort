@@ -1,0 +1,16 @@
+from tkinter import*
+root=Tk()
+units=["UNIT 1","UNIT 2","UNIT 3","UNIT 4","UNIT 5"]
+label=Label(root,text="Select A Unit",fg="black")
+button1=Button(root,text=units[0],fg="black")
+button2=Button(root,text=units[1],fg="black")
+button3=Button(root,text=units[2],fg="black")
+button4=Button(root,text=units[3],fg="black")
+button5=Button(root,text=units[4],fg="black")
+label.grid(row=50)
+button1.grid(row=51)
+button2.grid(row=52)
+button3.grid(row=53)
+button4.grid(row=54)
+button5.grid(row=55)
+root.mainloop()
